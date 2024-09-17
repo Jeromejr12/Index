@@ -46,3 +46,44 @@ https://github.com/Jeromejr12/Index/blob/main/README.md
     </mfrac></math
   >.
 </p>
+<math display="block">
+  <menclose notation="circle box">
+    <mi>x</mi>
+    <mo>+</mo>
+    <mi>y</mi>
+  </menclose>
+</math>
+<math display="block">
+  <semantics>
+    <!-- The first child is the MathML expression rendered by default. -->
+    <mrow>
+      <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <mi>y</mi>
+    </mrow>
+
+    <!-- Annotate with "Content MathML", a dedicated XML dialect to
+         express the meaning of mathematical formulas. -->
+    <annotation-xml encoding="MathML-Content">
+      <apply>
+        <plus />
+        <apply>
+          <power />
+          <ci>x</ci>
+          <cn type="integer">2</cn>
+        </apply>
+        <ci>y</ci>
+      </apply>
+    </annotation-xml>
+
+    <!-- Annotate with a PNG image of the formula. -->
+    <annotation encoding="image/png" src="some/path/formula.png" />
+
+    <!-- Annotate with LaTeX, a lightweight markup language to write
+         mathematical formulas. -->
+    <annotation encoding="application/x-tex"> x^{2} + y </annotation>
+  </semantics>
+</math>
