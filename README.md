@@ -193,3 +193,41 @@ https://github.com/Jeromejr12/Index/blob/main/README.md
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Embedding Example</title>
+</head>
+<body>
+    <h1>Embedding Different Types of Media</h1>
+
+    <!-- PNG Image -->
+    <h2>PNG Image</h2>
+    <img src="image.png" alt="A PNG Image" width="300">
+
+    <!-- JPG Image -->
+    <h2>JPG Image</h2>
+    <img src="image.jpg" alt="A JPG Image" width="300">
+
+    <!-- GIF Image -->
+    <h2>GIF Image</h2>
+    <img src="image.gif" alt="A GIF Image" width="300">
+
+    <!-- MP4 Video -->
+    <h2>MP4 Video</h2>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- MP3 Audio -->
+    <h2>MP3 Audio</h2>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
