@@ -87,3 +87,37 @@ https://github.com/Jeromejr12/Index/blob/main/README.md
     <annotation encoding="application/x-tex"> x^{2} + y </annotation>
   </semantics>
 </math>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        /* This is a comment explaining the internal styles */
+        h1 {
+            color: blue;
+            font-size: 36px;
+        }
+
+        p {
+            color: green;
+            font-size: 18px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 style="color: red;">This is a heading</h1> <!-- Inline style overrides the internal style -->
+    <p>This is a paragraph with internal style.</p>
+    
+    <div class="box" style="background-color: yellow;">This box has an inline style that overrides internal style</div>
+</body>
+</html>
