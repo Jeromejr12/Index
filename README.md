@@ -121,3 +121,75 @@ https://github.com/Jeromejr12/Index/blob/main/README.md
     <div class="box" style="background-color: yellow;">This box has an inline style that overrides internal style</div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        /* Internal styles for the page */
+        h1 {
+            color: blue;
+            font-size: 36px;
+        }
+
+        p {
+            color: green;
+            font-size: 18px;
+        }
+
+        /* Class to style boxes with different background colors */
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: lightgray;
+            margin: 20px; /* Adds margin around the box */
+            padding: 15px; /* Adds padding inside the box */
+            text-align: center;
+        }
+
+        /* Class for the footer section */
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Class for a header section */
+        .header {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Container for organizing layout */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container div -->
+    <div class="container">
+        <!-- Header section -->
+        <div class="header">
+            <h1 style="color: red;">This is a heading</h1> <!-- Inline style overrides internal style -->
+            <p>This is a paragraph with internal style.</p>
+        </div>
+
+        <!-- Main content section with a box -->
+        <div class="box">
+            This box has padding and margin set using the .box class
+        </div>
+
+        <!-- Footer section -->
+        <div class="footer">
+            <p>&copy; 2024 Your Company</p>
+        </div>
+    </div>
+</body>
+</html>
