@@ -1,0 +1,92 @@
+Content 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Embedding Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .media-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .media {
+            width: 30%;
+            text-align: center;
+        }
+
+        .media img, .media video {
+            width: 100%;
+            height: auto;
+            border: 2px solid #ccc;
+        }
+
+        .media audio {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Embedding Different Types of Media</h1>
+        
+        <div class="media-section">
+            <!-- PNG Image -->
+            <div class="media">
+                <h2>PNG Image</h2>
+                <img src="https://via.placeholder.com/300x200.png" alt="Placeholder PNG Image">
+            </div>
+
+            <!-- JPG Image -->
+            <div class="media">
+                <h2>JPG Image</h2>
+                <img src="https://via.placeholder.com/300x200.jpg" alt="Placeholder JPG Image">
+            </div>
+
+            <!-- MP4 Video -->
+            <div class="media">
+                <h2>MP4 Video</h2>
+                <video controls>
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="media-section">
+            <!-- MP3 Audio -->
+            <div class="media">
+                <h2>MP3 Audio</h2>
+                <audio controls>
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
