@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page with Divs</title>
+    <style>
+        /* Internal Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .content .left {
+            width: 48%;
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-right: 2%;
+        }
+
+        .content .right {
+            width: 48%;
+            background-color: #e0e0e0;
+            padding: 15px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Class for margin and padding example */
+        .margin-padding-example {
+            margin: 20px;
+            padding: 10px;
+            background-color: #dcdcdc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Welcome to My Webpage</h1>
+        </div>
+
+        <!-- Content Section -->
+        <div class="content">
+            <div class="left">
+                <h2>Left Content</h2>
+                <p>This is the left section of the content. It has some padding around it and is slightly separated from the right section.</p>
+            </div>
+            <div class="right">
+                <h2>Right Content</h2>
+                <p>This is the right section of the content. It has a similar layout to the left section but with a different background color.</p>
+            </div>
+        </div>
+
+        <!-- Margin and Padding Example Section -->
+        <div class="margin-padding-example">
+            <h3>This element has margin and padding applied</h3>
+            <p>The margin creates space around this element, while padding adds space inside the element's borders.</p>
+        </div>
+        
+        <!-- Footer Section -->
+        <div class="footer">
+            <p>© 2024 My Website</p>
+        </div>
+    </div>
+
+</body>
+</html>
