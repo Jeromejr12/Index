@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Satisfaction Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>We Value Your Feedback</h1>
+        <p>Please take a moment to share your thoughts on our services.</p>
+    </header>
+
+    <!-- Feedback Survey -->
+    <section id="survey">
+        <h2>Customer Satisfaction Survey</h2>
+        <form>
+            <label for="q1">1. How satisfied are you with our product?</label>
+            <input type="radio" id="q1" name="satisfaction" value="Very Satisfied"> Very Satisfied
+            <input type="radio" id="q1" name="satisfaction" value="Satisfied"> Satisfied
+            <input type="radio" id="q1" name="satisfaction" value="Unsatisfied"> Unsatisfied
+
+            <label for="q2">2. How likely are you to recommend our product?</label>
+            <input type="radio" id="q2" name="recommend" value="Very Likely"> Very Likely
+            <input type="radio" id="q2" name="recommend" value="Somewhat Likely"> Somewhat Likely
+            <input type="radio" id="q2" name="recommend" value="Not Likely"> Not Likely
+
+            <label for="q3">3. What feature do you use the most?</label>
+            <textarea id="q3" name="feature" rows="4" cols="50"></textarea>
+
+            <label for="q4">4. What could we improve?</label>
+            <textarea id="q4" name="improvement" rows="4" cols="50"></textarea>
+
+            <label for="q5">5. Overall, how would you rate our customer service?</label>
+            <input type="radio" id="q5" name="service" value="Excellent"> Excellent
+            <input type="radio" id="q5" name="service" value="Good"> Good
+            <input type="radio" id="q5" name="service" value="Poor"> Poor
+
+            <p>Thank you for your feedback! As a token of appreciation, we are offering a 10% discount on your next purchase.</p>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Customer Satisfaction Survey</p>
+    </footer>
+</body>
+</html>
